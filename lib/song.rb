@@ -21,7 +21,6 @@ class Song
 
   def self.genres
     return @@genres.uniq
-
   end
 
   def self.artists                #ALL class methods have self. in it
