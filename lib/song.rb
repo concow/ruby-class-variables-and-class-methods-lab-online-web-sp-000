@@ -24,7 +24,7 @@ class Song
 
   end
 
-  def self.artists
+  def self.artists                #ALL class methods have self. in it
     return @@artists.uniq
   end
 
