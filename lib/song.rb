@@ -20,7 +20,7 @@ class Song
   end
 
   def self.genres
-    return @@genres.uniq          #uniq method returns unique genres only
+    return @@genres.uniq        #uniq method returns unique genres only
   end
 
   def self.artists
