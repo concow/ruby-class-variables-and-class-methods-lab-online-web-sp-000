@@ -20,7 +20,7 @@ class Song
   end
 
   def self.genres
-    @@genres = []
+    return @@genres.uniq
 
   end
 
