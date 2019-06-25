@@ -4,7 +4,7 @@ class Song
   @@count = 0                           #Class Variable counter initialization
   @@artists = []
   @@genres = []
-  
+
   def initialize(name, artist, genre)
     @@count += 1
     @@artist
