@@ -15,7 +15,7 @@ class Song
 
   end
 
-  def self.count        #class method
+  def self.count                #ALL class methods have self. in it
     return @@count
   end
 
@@ -23,7 +23,7 @@ class Song
     return @@genres.uniq          #uniq method returns unique genres only
   end
 
-  def self.artists                #ALL class methods have self. in it
+  def self.artists
     return @@artists.uniq
   end
 
