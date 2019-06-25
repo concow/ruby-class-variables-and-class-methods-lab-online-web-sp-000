@@ -32,6 +32,6 @@ class Song
   end
 
   def self.genre_count
-
+    genre_count = {}          #init genre_count hash
   end
 end
