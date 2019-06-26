@@ -45,7 +45,7 @@ class Song
       if genre_count[genre]         #if its a new genre, add it
         genre_count[genre] += 1
       else
-        genre_count[genre] = 1    #else add to existed genre already present in the hash
+        genre_count[genre] = 1    #add new genre
       end
     end
     return genre_count            #returns our hash
