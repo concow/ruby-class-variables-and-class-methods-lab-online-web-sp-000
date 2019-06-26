@@ -24,7 +24,7 @@ class Song
   end
 
   def self.artists
-    return @@artists.uniq
+    return @@artists.uniq       #returns an array of only unique artists
   end
 
   def self.artist_count
