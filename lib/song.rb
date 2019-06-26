@@ -2,7 +2,7 @@ class Song
   attr_accessor :name, :artist, :genre
 
   @@count = 0                           #Class Variable counter initialization
-  @@artists = []
+  @@artists = []                        #initialization of our array
   @@genres = []
 
   def initialize(name, artist, genre)
