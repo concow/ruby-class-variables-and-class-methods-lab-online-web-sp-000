@@ -11,7 +11,7 @@ class Song
     @genre = genre
     @@count += 1
     @@genres<< genre
-    @@artists << artist
+    @@artists << artist                 #add created artists to our artists array
 
   end
 
