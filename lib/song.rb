@@ -42,8 +42,8 @@ class Song
   def self.genre_count
     genre_count = {}              #init genre_count hash
     @@genres.each do |genre|
-      if genre_count[genre]         #if its a new genre, add it
-        genre_count[genre] += 1
+      if genre_count[genre]
+        genre_count[genre] += 1    #add to existing genre in hash
       else
         genre_count[genre] = 1    #add new genre
       end
